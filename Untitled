@@ -1,0 +1,43 @@
+https://aircomm.184mirror.test:8443/apps/shopping/authentication?nav=switchflyair2&recLoc=KFKNLH&firstName=Trevor&lastName=Ahlberg&page=hub
+  1 v9zzwhf7uwj5k4919
+
+http: //pragprog.com/wikis/wiki/railsplaytime
+
+  {
+    "message": "An unexpected error has occurred. Please call for assistance or try your <a href=\"/travel/itinerary_clear_process.cfm?redirect_url=%2Ftravel%2Farc.cfm\">search</a> again.",
+    "request": {},
+    "response": {
+      "_adrumAjaxT": {
+        "perf": {
+          "w": {
+            "sendTime": {
+              "name": "sendTime",
+              "entryType": "mark",
+              "startTime": 1535401346465,
+              "duration": 0
+            }
+          }
+        },
+        "_timestamp": 1535401346465,
+        "_guid": "d20f8f81_9c79_98b5_ee1a_d028199bb185",
+        "_url": "https://aircomm.v184test.switchfly.com/apps/shopping/dashCart/original",
+        "_method": "GET",
+        "_parentGUID": "d38a859f_bf17_2685_e8ab_bf8b77138f14",
+        "_parentUrl": "https://aircomm.v184test.switchfly.com/apps/shopping/#/dashCartSummary",
+        "_parentType": 3,
+        "_parentPhase": "AFTER_DOM_INTERACTIVE"
+      }
+    }
+  }
+
+  How to not let your teammates powerless and in desperation: write tests.
+
+  TESTIN NOTES
+  //avoid using anyTimes() in your mocks, it does not verify anything.
+  //write methods returning something not just void modify(someObject, passedValuesUsedInside)
+  //verify your mocks if no then is no use.
+  //write partial mocks to test method that have internal method calls
+  //test>encapsulation
+  //test first if possible (know as TDD)
+  //dont test internal method calls inside another method test.
+  //if all preparation for test seems too much, you are doing too much in that unit.

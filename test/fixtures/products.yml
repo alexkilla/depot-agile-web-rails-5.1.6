@@ -3,7 +3,7 @@
 one:
   title: MyString
   description: MyText
-  image_url: 7apps.jpg 
+  image_url: 7apps.jpg
   price: 9.99
 
 two:

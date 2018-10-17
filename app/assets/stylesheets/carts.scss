@@ -13,7 +13,10 @@
   }
   td.quantity::after{
     font-weight: bold;
-    text-align: right;
+    content: " x";
+  }
+  button.delete{
+    background-color:red;
   }
   tfoot{
     th, td.price {
